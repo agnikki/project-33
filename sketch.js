@@ -144,10 +144,12 @@ function draw() {
    }
  }
 }
-function mousePressed(){
+function keyPressed(){
+  if (keyCode===32){
    if(gameState!==END)
   {
     count++;
     particle=new Particle(mouseX,10,10);
   }
+}
 }
