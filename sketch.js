@@ -104,7 +104,7 @@ function draw() {
  }
 
 
-     if(particle!==null)
+     if(particle!=null)
    {
      particle.display();
 
