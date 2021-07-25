@@ -110,13 +110,13 @@ function draw() {
 
      if (particle.body.position.y>760){
 
-      if(particle.body.position.x < 300){
+      if(particle.body.position.x > 300){
         score=score+500;
         particle=null;
         if(count>= 5) gameState =END;
    
       }
-      if(particle.body.position.x>301 && particle.body.position.x<600){
+      if(particle.body.position.x<301 && particle.body.position.x>600){
         score=score+100;
         particle=null;
         if(count>= 5) gameState =END;
